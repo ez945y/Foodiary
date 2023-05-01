@@ -10,10 +10,10 @@ data class Food(
     var id: Int,
     var name: MutableState<String> = mutableStateOf(""),
     var type: MutableState<Int> = mutableStateOf(0),
-    var protein: MutableState<Int> = mutableStateOf(0),
-    var carbohydrates: MutableState<Int> = mutableStateOf(0),
-    var fibre: MutableState<Int> =  mutableStateOf(0),
-    var kilocalorie: MutableState<Int> =  mutableStateOf(0),
+    var protein: MutableState<Float> = mutableStateOf(0f),
+    var carbohydrates: MutableState<Float> = mutableStateOf(0f),
+    var fibre: MutableState<Float> =  mutableStateOf(0f),
+    var kilocalorie: MutableState<Float> =  mutableStateOf(0f),
     var defaultGram: MutableState<Int> = mutableStateOf(0),
 
 )
